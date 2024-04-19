@@ -1,0 +1,37 @@
+{
+  "name": "digitalcertificatesystembackend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000D\u0000i\u0000g\u0000i\u0000t\u0000a\u0000l\u0000C\u0000e\u0000r\u0000t\u0000i\u0000f\u0000i\u0000c\u0000a\u0000t\u0000e\u0000S\u0000y\u0000s\u0000t\u0000e\u0000m\u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "hardhat": "npx hardhat node",
+    "newHardhat": "npx hardhat clean && npx hardhat node",
+    "deploySmartContract": "npx hardhat run --network localhost ./scripts/deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "elliptic": "^6.5.4",
+    "eth-crypto": "^2.6.0",
+    "ethereumjs-util": "^7.1.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "ipfs-http-client": "53.0.1",
+    "js-sha3": "^0.9.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "hardhat": "^2.19.2",
+    "nodemon": "^3.0.1"
+  }
+}
